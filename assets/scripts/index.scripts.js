@@ -3,11 +3,15 @@ function teste() {
     alert(nome);
 }
 
+function enviarEmail() {
+
+
+
 const public_key = "po25BxTneRoQJnoYA";
 const secret_key = "lxDQ8CA4T1HLX_UTVdONv";
 
 (function () {
-    emailJS.init(public_key);
+    emailjs.init(public_key);
 })();
 
 document.getElementById("form").addEventListener("submit", function (event) {
@@ -32,13 +36,12 @@ document.getElementById("form").addEventListener("submit", function (event) {
     const service_id = "service_rj39bpk";
     const template_id = "template_tccrlrr";
 
-    emailJS.send(service_id, template_id, params).then((res) => {
+    emailjs.send(service_id, template_id, params).then((res) => {
         document.getElementById("nome").value = "";
         document.getElementById("email").value = "";
         document.getElementById("mensagem").value = "";
         console.log(res);
         alert("Mensagem enviada com sucesso!");
     })
-    .catch((err) => console.log(err)); {
-    };
-
+    .catch((err) => console.log(err));
+}
