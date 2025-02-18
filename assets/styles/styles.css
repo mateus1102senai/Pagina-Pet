@@ -6,19 +6,19 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #e4f7ff;
+    background-color: #ebfeff;
 }
 
 .navbar {
     display: flex;
-    background-color: #a6dff5;
+    background-color: #50cdff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
     display: flex;
 }
 
 .navbar-brand { 
     font-weight: 500;
-    color: #333;
+    color: #6e6a6aa6;
     display: flex;
     margin-left: 2rem;
 }
@@ -36,7 +36,7 @@ body {
 
 
 .btn {
-    background-color: #adffe0;
+    background-color: #effff9;
     color: #333;
     font-weight: 500;
     border: none;
@@ -124,7 +124,7 @@ h1 {
     }
 
     .btn2 {
-        background-color: #cae0fc;
+        background-color: #e1eeff;
         color: #333;
         font-weight: 500;
         border: none;
@@ -164,8 +164,8 @@ h1 {
         flex-direction: column;
     }
 
-    .avaliacao {
-        background-color: #9ec6dd;
+    .formulario {
+        background-color: #e4f7ff;
         height: 20rem;
        
     }
